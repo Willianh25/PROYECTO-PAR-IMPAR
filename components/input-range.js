@@ -8,8 +8,8 @@ class InputRange extends HTMLElement {
   connectedCallback() {
     // Se define el contenido del Shadow DOM
     this.shadowRoot.innerHTML = `
-      <label>Inicio: <input type="number" id="inicio"></label>
-      <label>Fin: <input type="number" id="fin"></label>
+      <label>Inicio: <input type="number" id="inicio" value="1"></label>
+      <label>Fin: <input type="number" id="fin" value="100"></label>
       <button id="enviar">Enviar</button>
     `;
 
